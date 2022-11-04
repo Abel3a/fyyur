@@ -15,5 +15,5 @@ if uri.startswith("postgres://postgres:abel@localhost:5432/fyyure"):
   uri = uri.replace("postgres://postgres:abel@localhost:5432/fyyure", "postgresql://postgres:abel@localhost:5432/fyyure", 1)'''
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = "postgresql://postgres:abel@localhost:5432/fyyure"
+SQLALCHEMY_DATABASE_URI = "postgresql://postgres:abel@localhost:5432/fyyur"
 SQLALCHEMY_TRACK_MODIFICATIONS=True
